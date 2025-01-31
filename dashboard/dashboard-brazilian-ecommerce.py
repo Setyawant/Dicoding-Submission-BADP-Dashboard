@@ -12,7 +12,7 @@ st.set_page_config(page_title="Brazilian E-commerce Dashboard", page_icon="📊"
 # Load Data 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("all_rfm_cust_data.csv")
+    df = pd.read_csv("./dashboard/all_rfm_cust_data.csv")
     df["order_purchase_timestamp"] = pd.to_datetime(df["order_purchase_timestamp"])
     df["year_month"] = pd.to_datetime(df["year_month"])
     df["order_approved_at"] = pd.to_datetime(df["order_approved_at"])
@@ -97,7 +97,7 @@ if (
 
 
 # Logo and text
-st.logo("assets/Logo-Olist.png")
+st.logo("./dashboard/assets/Logo-Olist.png")
 
 st.sidebar.markdown(
     """
