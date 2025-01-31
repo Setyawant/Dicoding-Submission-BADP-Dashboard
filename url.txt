@@ -1,1 +1,1 @@
-urls
+https://dicoding-submission-badp-dashboard-setyawant.streamlit.app/
