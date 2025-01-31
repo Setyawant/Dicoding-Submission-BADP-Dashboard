@@ -96,7 +96,7 @@ streamlit run dashboard-brazilian-ecommerce.py
 
 Brazilian E-Commerce Dashboard dapat diakses melalui tautan berikut:
 
-🔗 **[Lihat Dashboard di Streamlit Cloud](https://share.streamlit.io/username/repository-name/main/app.py)**
+🔗 **[Lihat Dashboard di Streamlit Cloud](https://dicoding-submission-badp-dashboard-setyawant.streamlit.app/)**
 
 ![Demo](./dashboard/assets/dashboard-preview.gif)
 
